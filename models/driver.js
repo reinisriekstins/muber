@@ -1,6 +1,6 @@
 const
   mongoose = require('mongoose'),
-  { Schema } = mongoose,
+  { Schema } = mongoose
 
 const DriverSchema = new Schema({
   email: {
