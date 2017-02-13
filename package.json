@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "test": "nodemon --exec 'mocha --recursive -R min'"
+    "start": "nodemon index",
+    "test": "set NODE_ENV=test && nodemon --exec \"mocha --recursive\"",
+    "win:mongo": "cd \"C:\\Program Files\\MongoDB\\Server\\3.4\\bin\" && mongod"
   },
   "author": "",
   "license": "ISC",
